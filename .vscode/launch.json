@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bazel-bin/debugging/example_test",
+            "program": "${workspaceFolder}/bazel-bin/wordcount/wordcount_test",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
