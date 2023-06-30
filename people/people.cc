@@ -20,12 +20,7 @@ const Person &highest_tenure(const Db *db) {
       res = &person;
     }
   }
-  if (res == nullptr) {
-    return null_person;
-  }
-  const Person &res_ref = *res;
-  return res_ref;
-  //   return res == nullptr ? null_person : *res;
+  return res == nullptr ? null_person : *res;
 }
 
 const Person &youngest_person(const Db *db) {
